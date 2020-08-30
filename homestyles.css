@@ -6,7 +6,27 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.8em;
+  background-color: #f8f8f8;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.5em;
+  line-height: 1.3em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+a:link,
+a:visited {
+  color: #5D6063;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 
 .header{
   display: flex;
@@ -40,6 +60,6 @@ body{
 
 .title{
   width: 100%;
-  padding: 4em 2em;
+  padding: 2em 1em;
   text-align: center;
 }
