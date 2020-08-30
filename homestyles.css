@@ -7,3 +7,33 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+
+.header{
+  display: flex;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  padding: 10px 50px;
+  background: #ffffff;
+  box-shadow: 0 2px 0 rgba(93, 96, 99, .1);
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-name>li{
+  display: inline;
+  margin-left: 20px;
+}
+.menu > li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.menu > li:last-of-type {
+  margin-right: 0;
+}
