@@ -37,3 +37,9 @@ body{
 .menu > li:last-of-type {
   margin-right: 0;
 }
+
+.title{
+  width: 100%;
+  padding: 4em 2em;
+  text-align: center;
+}
