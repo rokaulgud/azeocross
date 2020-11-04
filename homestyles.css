@@ -5,14 +5,13 @@
 }
 
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Itim', cursive;
   font-size: 18px;
   line-height: 1.8em;
-  background-color: #f8f8f8;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 1.5em;
+  margin: 1em;
   line-height: 1.3em;
   font-weight: normal;
   font-style: normal;
@@ -38,12 +37,13 @@ a:hover {
   width: 100%;
   padding: 10px 50px;
   background: #ffffff;
-  box-shadow: 0 2px 0 rgba(93, 96, 99, .1);
+  /*box-shadow: 0 2px 0 rgba(93, 96, 99, .1);*/
 }
 .logo{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: 'Itim', cursive;
 }
 .header-name>li{
   display: inline;
@@ -52,6 +52,7 @@ a:hover {
 .menu > li {
   display: inline;
   margin-right: 50px;
+  font-family: 'Itim', cursive;
 }
 
 .menu > li:last-of-type {
@@ -60,6 +61,44 @@ a:hover {
 
 .title{
   width: 100%;
-  padding: 2em 1em;
+  padding: 1.2em 1em 0em 1em;
   text-align: center;
+}
+
+.content{
+  display: flex; 
+  flex-direction: row; 
+  align-content: space-around; 
+
+  width: 60%;
+  margin: auto; 
+}
+
+.crossword{
+  display:flex; 
+  flex-direction: column; 
+
+  height:500px; 
+  width: 100%;
+  margin:auto; 
+  margin-bottom: 20px; 
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5em 2em 0.5em 2em;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.social>a{
+  margin-right: 1em;
+}
+.social>a:last-of-type{
+  margin-right: 0;
 }
