@@ -121,11 +121,11 @@ a:hover {
 .footer{
   position: absolute;
   bottom: 0;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
   width: 100%;
-  padding: 1em 2em 0.5em 2em;
+  /* padding: 1em 2em 0.5em 2em; */
   box-shadow: 0 -1px 10px #aaaaaa;
   margin: auto;
 }
@@ -137,7 +137,7 @@ a:hover {
 .social{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
 }
 .social>a{
@@ -145,4 +145,40 @@ a:hover {
 }
 .social>a:last-of-type{
   margin-right: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .copyright{
+    font-size: 0.75em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0.5em;
+  }
+  .social{
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 850px) {
+  .copyright{
+    font-size: 0.75em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0.5em;
+  }
+  .social{
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em 0.5em 2em;
+  }
+  .social{
+    justify-content: space-around;
+  }
 }
