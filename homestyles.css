@@ -81,7 +81,18 @@ a:hover {
   height:500px; 
   width: 100%;
   margin:auto; 
-  margin-bottom: 20px; 
+  margin-bottom: 10%;
+}
+
+.crosslab{
+  flex:1; 
+  font-family: 'Fira Sans', sans-serif;
+  width:100%; 
+  padding:5px 5px 5px 5px;
+  border: 1px;
+  border-style: solid;
+  border-color: #bbbbbb;
+  box-shadow: 1px 1px 10px #aaaaaa;
 }
 
 .footer{
@@ -89,12 +100,17 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0.5em 2em 0.5em 2em;
+  padding: 1em 2em 0.5em 2em;
+  box-shadow: 0 -1px 10px #aaaaaa;
+}
+.copyright{
+  align-items: center;
 }
 .social{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 .social>a{
   margin-right: 1em;
