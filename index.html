@@ -24,8 +24,10 @@
     <div class="page-container" id="page-container">
       <header class="header" id="head">
         <div class="logo">
-          <img src="media/azeo21.png" alt="AZeotropy 2021" height="50px">
-          <p><a href="#head">Chem-E-Cross</a></p>
+          <a href="index.html">
+            <img src="media/azeo21.png" alt="AZeotropy 2021" height="50px"/>
+          </a">
+          <p><a href="index.html">Chem-E-Cross</a></p>
         </div>
         <div id="menu" onclick="onClickMenu()">
 				  <div id="bar1" class="bar"></div>
@@ -34,11 +36,11 @@
 			  </div>
         <nav>
           <ul class="menu" id="nav">
-            <li><a href="#mainpage">Latest</a></li> 
+            <li><a href="#current_title">Latest</a></li> 
             <!-- <li><a href="archive.html">Archive</a></li> -->
-            <li><a href="rules.html">Rules</a></li>
+            <li><a href="instructions.html">Instructions</a></li>
             <li><a href="azeotropy.html">AZeotropy</a></li>
-            <li><a class="submit" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Submit</a></li>
+            <li><a class="submit" href="https://youtu.be/DJfg39WkMvE" target="_blank">Submit</a></li>
           </ul>
         </nav>
       </header>
@@ -47,8 +49,12 @@
           <h1>Crossword for the month of November 2020</h1>
         </div>
           <div class="crossword" id="crossword" >
-            <iframe class="crosslab" src="https://crosswordlabs.com/embed/the-legend-of-korra?clue_height=20">
+            <iframe class="crosslab" src="https://crosswordlabs.com/embed/chem-e-cross_november-2?clue_height=40">
             </iframe>
+          </div>
+          <div class="timer" id="timer">
+            <p>Time Left:</p>
+            <p id="demo"></p>
           </div>
       </div>
       <footer class="footer" id="footer">
@@ -81,5 +87,6 @@
         document.getElementById("nav").classList.toggle("change");
       }
     </script>
+    <script src="timer.js"></script>
   </body>
 </html>
