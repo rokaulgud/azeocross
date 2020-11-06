@@ -27,8 +27,13 @@
           <img src="media/azeo21.png" alt="AZeotropy 2021" height="50px">
           <p><a href="#head">Chem-E-Cross</a></p>
         </div>
+        <div id="menu" onclick="onClickMenu()">
+				  <div id="bar1" class="bar"></div>
+				  <div id="bar2" class="bar"></div>
+				  <div id="bar3" class="bar"></div>
+			  </div>
         <nav>
-          <ul class="menu">
+          <ul class="menu" id="nav">
             <li><a href="#mainpage">Latest</a></li> 
             <!-- <li><a href="archive.html">Archive</a></li> -->
             <li><a href="rules.html">Rules</a></li>
@@ -69,5 +74,12 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      function onClickMenu(){
+	      document.getElementById("menu").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+      }
+    </script>
   </body>
 </html>
