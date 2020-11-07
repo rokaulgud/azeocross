@@ -170,9 +170,47 @@ margin: auto;
 
 .rules{
     margin-top: 1em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #aaaaaa;
 }
 .rules li{
-    list-style-type: '\2192';
+    list-style-type: circle;
+}
+.rules li::marker{
+    color: #555555;
+    font-weight: 500;
+}
+
+.contact-pre{
+    padding-top: 1.5em;
+}
+.contact-card{
+    width: 100%;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 1px solid #aaaaaa;
+    padding: 1em 1em;
+    background-color: #ffffff;
+}
+.contact-avatar{
+    float: left;
+    width: 15%;
+    height: 15%;
+    border: 1px solid #aaaaaa;
+    border-radius: 50%;
+    margin-right: 1em;
+    margin-top: 1em;
+    overflow: hidden;
+    background-color: #dddddd;
+}
+.contact-details{
+    font-size: 0.9em;
+    color: #555555;
+    width: 80%;
+    padding: 1em 1em;
+    overflow: hidden;
+    background: #ffffff;
+    border-left: 1px solid #bbbbbb;
 }
 
 .footer{
