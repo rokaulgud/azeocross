@@ -204,7 +204,7 @@ margin: auto;
     margin-right: 1em;
     margin-top: 1em;
     overflow: hidden;
-    background-color: #dddddd;
+    background-color: #ffffff;
 }
 .contact-details{
     font-size: 0.9em;
@@ -477,15 +477,6 @@ color: #555555;
     }
     .contact-avatar{
         display: block;
-        float: left;
-        width: 15%;
-        height: 15%;
-        border: 1px solid #aaaaaa;
-        border-radius: 50%;
-        margin-right: 1em;
-        margin-top: 1em;
-        overflow: hidden;
-        background-color: #dddddd;
     }
     .contact-details{
         font-size: 0.9em;
