@@ -98,25 +98,47 @@ margin: auto;
 .sponsor-grid-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-  
+  .sponsor-grid-container p{
+      color: #555555;
+      font-size: 0.9em;
+  }
   .sponsor-grid {
-    width: 600px;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+
+    border-bottom: 1px solid #aaaaaa;
   }
   
   .photo-grid-item {
     border: 1px solid #fff;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
   } 
+  #reliance{
+    width: 180px;
+  }
+  #hp{
+    width: 200px;
+  }
+  #jaychem{
+    width: 300px;
+  }
+  #hikal{
+    width: 150px;
+  }
+  #alkyl{
+    width: 220px;
+  }
 
 .text-content{
     margin:auto;
@@ -132,6 +154,25 @@ margin: auto;
 #guide{
     padding-bottom: 2em;
     border-bottom: 1px solid #aaaaaa;
+}
+
+.psbutton{
+    width: 50%;
+    padding: 0.5em 1em;
+    margin: auto;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    text-align: center;
+}
+.psbutton:hover{
+    background-color: #eeeeee;
+}
+
+.rules{
+    margin-top: 1em;
+}
+.rules li{
+    list-style-type: '\2192';
 }
 
 .footer{
@@ -346,6 +387,29 @@ color: #555555;
     nav li:last-of-type {
         margin-right: 0;
     }
+
+    .sponsor-grid{
+        width: 800px;
+    }
+    .photo-grid-item{
+        width: 400px;
+        height: 200px;
+    }
+    #reliance{
+        width: 200px;
+      }
+      #hp{
+        width: 200px;
+      }
+      #jaychem{
+        width: 300px;
+      }
+      #hikal{
+        width: 150px;
+      }
+      #alkyl{
+        width: 220px;
+      }
 
     .text-content{
         width: 600px;
