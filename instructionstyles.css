@@ -181,10 +181,12 @@ margin: auto;
     font-weight: 500;
 }
 
+
 .contact-pre{
     padding-top: 1.5em;
 }
 .contact-card{
+    display: block;
     width: 100%;
     margin: auto;
     margin-top: 1.5em;
@@ -193,6 +195,7 @@ margin: auto;
     background-color: #ffffff;
 }
 .contact-avatar{
+    display:none;
     float: left;
     width: 15%;
     height: 15%;
@@ -206,11 +209,12 @@ margin: auto;
 .contact-details{
     font-size: 0.9em;
     color: #555555;
-    width: 80%;
+    text-align: left;
+    width: 100%;
     padding: 1em 1em;
     overflow: hidden;
     background: #ffffff;
-    border-left: 1px solid #bbbbbb;
+    /* border-left: 1px solid #bbbbbb; */
 }
 
 .footer{
@@ -387,6 +391,7 @@ color: #555555;
         padding-bottom: 2em;
         border-bottom: 1px solid #aaaaaa;
     }
+
     .copyright{
         font-size: 0.75em;
         text-align: center;
@@ -456,6 +461,41 @@ color: #555555;
     #guide{
         padding-bottom: 2em;
         border-bottom: 1px solid #aaaaaa;
+    }
+
+    .contact-pre{
+        padding-top: 1.5em;
+    }
+    .contact-card{
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 1.5em;
+        border: 1px solid #aaaaaa;
+        padding: 1em 1em;
+        background-color: #ffffff;
+    }
+    .contact-avatar{
+        display: block;
+        float: left;
+        width: 15%;
+        height: 15%;
+        border: 1px solid #aaaaaa;
+        border-radius: 50%;
+        margin-right: 1em;
+        margin-top: 1em;
+        overflow: hidden;
+        background-color: #dddddd;
+    }
+    .contact-details{
+        font-size: 0.9em;
+        text-align: left;
+        color: #555555;
+        width: 80%;
+        padding: 1em 1em;
+        overflow: hidden;
+        background: #ffffff;
+        border-left: 1px solid #bbbbbb;
     }
 
     .footer{
